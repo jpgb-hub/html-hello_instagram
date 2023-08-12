@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@200&family=Roboto:ital@1&display=swap');
+
+body {
+    background-color: rgb(226, 226, 226);
+}
+
+.post {
+    background-color: white;
+    width: 500px;
+    margin: 40px auto;
+    font-family: 'Roboto';
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.icons {
+    padding: 10px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons i:nth-child(-n+3) { 
+    margin-right: 10px; 
+}
+
+.icons i:last-child {
+    margin-left: auto; 
+}
+
+.postheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left i {
+    font-size: 28px;
+}
+
+.left p {
+    font-size: 28px;
+    margin-top: -20px; /* Espacio entre el icono y "Rigoberto" */
+}
+
+.right {
+    font-size: 28px;
+}
